@@ -1,0 +1,31 @@
+{
+  "name": "@phroggyy/webpack-css-splitting",
+  "version": "1.0.0",
+  "description": "Example repo of CSS Splitting with Webpack",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/phroggyy/webpack-css-splitting.git"
+  },
+  "keywords": [
+    "webpack",
+    "css",
+    "code-splitting"
+  ],
+  "author": "Leo Sjoberg <leo.sjoberg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phroggyy/webpack-css-splitting/issues"
+  },
+  "homepage": "https://github.com/phroggyy/webpack-css-splitting",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}
